@@ -1,0 +1,24 @@
+.home-container{
+    background-image: url('../../images/background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+.home-style{
+    color: tomato;
+}
+.home-quote{
+    font-size: 80px ;
+    padding-bottom: 30px;
+    margin-left: 50px;
+}
+.small-quote{
+    margin-left: 50px;
+
+    color: saddlebrown;
+}
+.about-btn{
+    margin-bottom: 150px;
+    width: 150px;
+    margin-left: 50px;
+}

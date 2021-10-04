@@ -1,0 +1,83 @@
+[
+    {
+        "name":"2021 Complete Python Bootcamp From Zero to Hero in Python",
+        "id":1,
+        "instructor":"Jose Portila",
+        "price":20,
+        "discountPrice":15,
+        "description":"Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games Learn to use Python professionally, learning both Python 2 and Python 3! Create games with Python, like Tic Tac Toe and Blackjack! Learn advanced Python features, like the collections module and how to work with timestamps!",
+        "img":"https://img-c.udemycdn.com/course/240x135/567828_67d0.jpg"
+     },
+     {
+        "name":"Machine Learning A-Z™: Hands-On Python & R In Data Science",
+        "id":2,
+        "instructor":"Kirill Eremenko",
+        "price":18,
+        "discountPrice":14,
+        "description":"Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.",
+        "img":"https://img-c.udemycdn.com/course/240x135/950390_270f_3.jpg"
+     },
+     {
+        "name":"Python for Data Science and Machine Learning Bootcamp",
+        "id":3,
+        "instructor":"Stephen Grider",
+        "price":21,
+        "discountPrice":18,
+        "description":"Learn how to use NumPy, Pandas, Seaborn , Matplotlib , Plotly , Scikit-Learn , Machine Learning, Tensorflow , and more!",
+        "img":"https://img-c.udemycdn.com/course/240x135/903744_8eb2.jpg"
+     },
+     {
+        "name":"Python for Data Science and Machine Learning Bootcamp",
+        "id":4,
+        "instructor":"Jose Portila",
+        "price":24,
+        "discountPrice":17,
+        "description":"Learn how to use NumPy, Pandas, Seaborn , Matplotlib , Plotly , Scikit-Learn , Machine Learning, Tensorflow , and more!",
+        "img":"https://img-c.udemycdn.com/course/240x135/629302_8a2d_2.jpg"
+     },
+     {
+        "name":"Learn Python Programming Masterclass",
+        "id":5,
+        "instructor":"Jose Portila",
+        "price":28,
+        "discountPrice":25,
+        "description":"Go from zero to hero in Python in weeks! Learn Python the easy way by building real-life Python programs!",
+        "img":"https://img-c.udemycdn.com/course/240x135/692188_9da7_21.jpg"
+     },
+     {
+        "name":"Microsoft Excel - Excel from Beginner to Advanced",
+        "id":6,
+        "instructor":"Stephane Maarek",
+        "price":23,
+        "discountPrice":15,
+        "description":"Excel with this A-Z Microsoft Excel Course. Microsoft Excel 2010, 2013, 2016, Excel 2019 and Microsoft/Office 365",
+        "img":"https://img-c.udemycdn.com/course/240x135/793796_0e89.jpg"
+     },
+     {
+        "name":"Ultimate AWS Certified Solutions Architect Associate 2021",
+        "id":7,
+        "instructor":"Jose Portila",
+        "price":17,
+        "discountPrice":14,
+        "description":"Pass the AWS Certified Solutions Architect Associate Certification SAA-C02. Complete Amazon Web Services Cloud training!",
+        "img":"https://img-c.udemycdn.com/course/240x135/2196488_8fc7_7.jpg"
+     },
+     {
+        "name":"iOS & Swift - The Complete iOS App Development Bootcamp",
+        "id":8,
+        "instructor":"Stephane Maarek",
+        "price":22,
+        "discountPrice":17,
+        "description":"Become a full-stack web developer with just one course. HTML, CSS, Javascript, Node, React, MongoDB and more!",
+        "img":"https://img-c.udemycdn.com/course/240x135/1793828_7999.jpg"
+     },
+     {
+        "name":"Docker and Kubernetes: The Complete Guide",
+        "id":9,
+        "instructor":"Jose Portila",
+        "price":22,
+        "discountPrice":17,
+        "description":"Build, test, and deploy Docker applications with Kubernetes while learning production-style development workflows",
+        "img":"https://img-c.udemycdn.com/course/240x135/1565838_e54e_12.jpg"
+     }
+  ]

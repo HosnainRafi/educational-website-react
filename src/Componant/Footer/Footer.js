@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-5">
               <div className="left-container text-start">
-                <h1>Biona Sports Club</h1>
+                <h1>Course Hero</h1>
                 <div className="icons-container d-flex text-center ">
                   <div className="icon">
                     <FontAwesomeIcon icon={faInstagramSquare} />
@@ -57,13 +57,13 @@ const Footer = () => {
             </div>
             <div className="col-md-5">
               <div className="right-footer-container">
-                <h3>Sign up for the Course Hero</h3>
+                <h3>Sign up for <br /> the Course Hero</h3>
                 <input
                   className="footer-input"
                   type="text"
                   placeholder="Enter Email"
                 />
-                <div className="phone d-flex align-items-center justify-content-center mt-4">
+                <div className="phone d-flex align-items-center mt-4">
                   <div className="footer-phone-icon">
                     <FontAwesomeIcon icon={faPhoneVolume} />
                   </div>
@@ -71,7 +71,7 @@ const Footer = () => {
                     <h5>+0123456789</h5>
                   </div>
                 </div>
-                <div className="map d-flex align-items-center justify-content-center">
+                <div className="map d-flex align-items-center">
                   <div className="footer-phone-icon">
                     <FontAwesomeIcon icon={faMapMarkedAlt} />
                   </div>

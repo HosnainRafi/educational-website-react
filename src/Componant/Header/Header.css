@@ -1,5 +1,6 @@
 .header-container{
-    margin-bottom: 30px;
+    background-image: url('https://thumbs.dreamstime.com/z/training-courses-key-white-background-note-83670448.jpg');
+    background-repeat: no-repeat;
 }
 .navbar-brand img {
     height: 150px;
@@ -7,4 +8,8 @@
 }
 .navigation-item{
     font-size: 25px;
+}
+.course-nav-title{
+    color: rebeccapurple;
+    font-size: 35px;
 }
