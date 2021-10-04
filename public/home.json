@@ -1,0 +1,38 @@
+[
+    {
+        "name":"2021 Complete Python Bootcamp From Zero to Hero in Python",
+        "id":1,
+        "instructor":"Jose Portila",
+        "price":20,
+        "discountPrice":15,
+        "description":"Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games Learn to use Python professionally, learning both Python 2 and Python 3! ",
+        "img":"https://img-c.udemycdn.com/course/240x135/567828_67d0.jpg"
+     },
+     {
+        "name":"Machine Learning A-Z™: Hands-On Python & R In Data Science",
+        "id":2,
+        "instructor":"Kirill Eremenko",
+        "price":18,
+        "discountPrice":14,
+        "description":"Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.learning both Python 2 and Python 3! Create games with Python, like Tic Tac Toe and Blackjack!",
+        "img":"https://img-c.udemycdn.com/course/240x135/950390_270f_3.jpg"
+     },
+     {
+        "name":"Python for Data Science and Machine Learning Bootcamp",
+        "id":3,
+        "instructor":"Stephen Grider",
+        "price":21,
+        "discountPrice":18,
+        "description":"Learn how to use NumPy, Pandas, Seaborn , Matplotlib , Plotly , Scikit-Learn , Machine Learning, Tensorflow , and more!learning both Python 2 and Python 3! Create games with Python, like Tic Tac Toe and Blackjack!",
+        "img":"https://img-c.udemycdn.com/course/240x135/903744_8eb2.jpg"
+     },
+     {
+        "name":"Docker and Kubernetes: The Complete Guide",
+        "id":9,
+        "instructor":"Jose Portila",
+        "price":22,
+        "discountPrice":17,
+        "description":"Build, test, and deploy Docker applications with Kubernetes while learning production-style development workflows.! Learn advanced Python features, like the collections module and how to work with timestamps",
+        "img":"https://img-c.udemycdn.com/course/240x135/1565838_e54e_12.jpg"
+     }
+]

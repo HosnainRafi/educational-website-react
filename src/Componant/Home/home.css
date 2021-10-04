@@ -10,15 +10,18 @@
 .home-quote{
     font-size: 80px ;
     padding-bottom: 30px;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 .small-quote{
-    margin-left: 50px;
+    margin-left: 60px;
 
     color: saddlebrown;
 }
 .about-btn{
     margin-bottom: 150px;
     width: 150px;
-    margin-left: 50px;
+    margin-left: 60px;
+}
+.home-card-container{
+    margin: 80px;
 }

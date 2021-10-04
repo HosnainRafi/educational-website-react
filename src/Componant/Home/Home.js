@@ -1,5 +1,8 @@
+import { Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material';
 import React from 'react';
 import { useHistory } from 'react-router';
+import HomeCard from '../HomeCard/HomeCard';
+import useHomeCourses from '../Hooks/useHomeCourses';
 import './home.css'
 
 const Home = () => {
@@ -8,6 +11,11 @@ const Home = () => {
     const handleHistory = () => {
         history.push('/about');
     }
+    const handleCourse = () =>{
+        history.push('./courses')
+    }
+
+    const [courses, setCourses] = useHomeCourses();
 
     return (
         <div>
@@ -24,8 +32,19 @@ const Home = () => {
                 </div>
                 <button onClick={handleHistory} className="btn btn-danger about-btn">About Us</button>
             </div>
-            <div>
-                
+            <div className="container home-card-container">
+                <div className="row g-4">
+                    {
+                        courses.map(course => <HomeCard
+                            course={course}
+                            key={course.id}
+                        ></HomeCard>)
+
+                    }
+                    <div className="mx-auto text-white text-center">
+                        <button onClick={handleCourse} className="btn btn-danger">See all Courses</button>
+                    </div>
+                </div>
             </div>
         </div>
 
