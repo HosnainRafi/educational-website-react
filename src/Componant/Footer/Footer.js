@@ -68,7 +68,7 @@ const Footer = () => {
                     <FontAwesomeIcon icon={faPhoneVolume} />
                   </div>
                   <div>
-                    <h5>+12345678</h5>
+                    <h5>+0123456789</h5>
                   </div>
                 </div>
                 <div className="map d-flex align-items-center justify-content-center">
