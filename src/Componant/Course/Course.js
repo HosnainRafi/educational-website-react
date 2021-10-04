@@ -12,10 +12,10 @@ const Course = (props) => {
 
     return (
         <div className="col-md-4 course-gap">
-            <div class="card" style={{width: "18rem"}}>
-                <img src={img} class="card-img-top" alt="..."/>
-                <div class ="card-body">
-                <h5 class ="card-title">{name}</h5>
+            <div className="card" style={{width: "18rem"}}>
+                <img src={img} className="card-img-top" alt="..."/>
+                <div className="card-body">
+                <h5 className="card-title">{name}</h5>
                 <p><small>{instructor}</small></p>
                 <div className="row">
                     <div className="col-md-8">
@@ -25,7 +25,7 @@ const Course = (props) => {
                         <small><del>${price}.99</del></small>
                     </div>
                 </div>
-                <p class ="card-text">{description}</p>
+                <p className="card-text">{description}</p>
                 <button onClick={handleDetails} className="btn btn-warning text-white">See Details</button>
                 </div>
             </div>

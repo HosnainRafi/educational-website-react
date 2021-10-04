@@ -2,6 +2,7 @@ import { Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/m
 import React from 'react';
 import { useHistory } from 'react-router';
 import HomeCard from '../HomeCard/HomeCard';
+import useCourses from '../Hooks/useCourses';
 import useHomeCourses from '../Hooks/useHomeCourses';
 import './home.css'
 
@@ -15,7 +16,7 @@ const Home = () => {
         history.push('./courses')
     }
 
-    const [courses, setCourses] = useHomeCourses();
+    const [fullCourses,setFullCourses] = useCourses();
 
     return (
         <div className="container-fluid">
@@ -35,7 +36,7 @@ const Home = () => {
             <div className="container home-card-container">
                 <div className="row g-4">
                     {
-                        courses.map(course => <HomeCard
+                        fullCourses.slice(0,4).map(course => <HomeCard
                             course={course}
                             key={course.id}
                         ></HomeCard>)
