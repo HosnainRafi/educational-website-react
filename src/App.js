@@ -8,6 +8,7 @@ import About from './Componant/About/About';
 import ContactUs from './Componant/ContactUs/ContactUs';
 import Courses from './Componant/Courses/Courses';
 import NotFound from './Componant/NotFound/NotFound';
+import CourseDetails from './Componant/CourseDetails/CourseDetails';
 
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
           </Route>
           <Route path= "/courses">
             <Courses></Courses>
+          </Route>
+          <Route path= "/course/:courseId">
+            <CourseDetails></CourseDetails>
           </Route>
           <Route path= "/about">
             <About></About>

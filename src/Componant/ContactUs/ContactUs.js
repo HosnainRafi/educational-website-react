@@ -4,7 +4,7 @@ import img from '../../images/map.jpg'
 
 const ContactUs = () => {
     return (
-        <div className="container contact-container">
+        <div className="container contact-container container-fluid">
             <div className="contact-info">
                 <div className="row">
                     <div className="col-md-6">
@@ -39,7 +39,7 @@ const ContactUs = () => {
                         
                     </div>
                     <div className="col-md-6">
-                        <h2>Location Info :</h2>
+                        <h2 className="map">Location Info :</h2>
                         <br />
                         <img className="img-fluid" src={img} alt="" />
                     </div>

@@ -18,7 +18,7 @@ const Home = () => {
     const [courses, setCourses] = useHomeCourses();
 
     return (
-        <div>
+        <div className="container-fluid">
             <div className="home-container container-fluid">
                 <div className="row">
                     <div className="col-md-6">

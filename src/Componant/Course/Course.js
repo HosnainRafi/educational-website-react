@@ -1,8 +1,14 @@
 import React from 'react';
+import { useHistory } from 'react-router';
 import './Course.css'
 
 const Course = (props) => {
-    const { name, description, img, instructor, price, discountPrice } = props.course;
+    const { name, description, img, instructor, price, discountPrice,id } = props.course;
+
+    const history = useHistory();
+    const handleDetails = () => {
+        history.push(`/course/${id}`)
+    }
 
     return (
         <div className="col-md-4 course-gap">
@@ -20,8 +26,10 @@ const Course = (props) => {
                     </div>
                 </div>
                 <p class ="card-text">{description}</p>
+                <button onClick={handleDetails} className="btn btn-warning text-white">See Details</button>
                 </div>
             </div>
+            
         </div>
     );
 };
